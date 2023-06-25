@@ -1,9 +1,11 @@
 ---
 import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
+import Toggle from './ThemeChange.astro';
 ---
 
 <header>
+	<Toggle />
 	<h2>
 		{SITE_TITLE}
 	</h2>
