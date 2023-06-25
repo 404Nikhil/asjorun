@@ -7,13 +7,14 @@ body {
 	font-family: Verdana, sans-serif;
 	margin: auto;
 	padding: 20px;
-	max-width: 65ch;
+	max-width: 70ch;
 	text-align: left;
-	background-color: #fff;
+	background-color: #000000;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
-	color: #444;
+	color: #c9c9c9;
+	font-size: 20px;
 }
 h1,
 h2,
@@ -23,7 +24,7 @@ h5,
 h6,
 strong,
 b {
-	color: #222;
+	color: c9c9c9;
 }
 a {
 	color: #3273dc;
@@ -33,7 +34,7 @@ nav a {
 }
 textarea {
 	width: 100%;
-	font-size: 16px;
+	font-size: 20px;
 }
 input {
 	font-size: 16px;
@@ -50,7 +51,7 @@ img {
 }
 code {
 	padding: 2px 5px;
-	background-color: #f2f2f2;
+	background-color: #535252;
 }
 pre {
 	padding: 1rem;
@@ -65,6 +66,7 @@ blockquote {
 	margin: 0px;
 	font-style: italic;
 }
+
 :root {
 	--color-bg: #f2f2f2;
 	--color-text: #444444;

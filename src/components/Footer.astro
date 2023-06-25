@@ -1,13 +1,27 @@
 ---
-const today = new Date();
 ---
+<div class="prose">
+  <hr />
 
-<footer>
-	&copy; {today.getFullYear()} YOUR NAME HERE. All rights reserved.
-</footer>
-<style>
-	footer {
-		padding: 25px;
-		text-align: center;
-	}
-</style>
+  <footer class="flex justify-between">
+    <span>Nikhil Dhariwal</span>
+
+    <div class="flex gap-4">
+      <a href="/rss.xml">
+        <div class="i-mdi:rss" title="RSS" />
+      </a>
+
+      <a href="/sitemap-index.xml">
+        <div class="i-mdi:sitemap" title="Sitemap" />
+      </a>
+
+      <a href="mailto:shoubhit2005@gmail.com">
+        <div class="i-tabler:mail-filled" title="Email" />
+						</a>
+
+      <a href="https://github.com/nexxeln">
+        <div class="i-radix-icons:github-logo" title="GitHub" />
+      </a>
+    </div>
+  </footer>
+</div>
