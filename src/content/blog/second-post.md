@@ -1,16 +1,38 @@
 ---
-title: "Second post"
-description: "Lorem ipsum dolor sit amet"
-pubDate: "Jul 22 2022"
+title: "npm and vite"
+description: "npm vite"
+pubDate: "Jun 27 2023"
 heroImage: "/placeholder-hero.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+Let's break down npm and Vite in simpler terms, using real-life examples and showing how to install them:
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+## **npm (Node Package Manager)**:
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+Think of npm as a tool that helps you manage the different tools and libraries you need to build your web application. It's like having a toolbox with all the tools you need for a construction project.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+For example, let's say you're building a website and you want to add a fancy image slider to it. You can use npm to search for a ready-made package (a pre-built image slider tool) that someone else has already built and shared with the community. You can then install that package using npm and add it to your project with just a few commands. It saves you time and effort from building everything from scratch.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+To install npm, you'll first need to install Node.js, which includes npm by default. You can go to the Node.js website ([**https://nodejs.org**](https://nodejs.org)) and download the version suitable for your operating system. Once Node.js is installed, npm will be available to use.
+
+## **Vite:**
+
+Now, let's talk about Vite. Imagine you're working on a construction project, and you want to test how different paints would look on the walls. Vite is like a magic paint that dries almost instantly, allowing you to quickly see the results and make decisions faster.
+
+In web development terms, Vite is a build tool that helps you develop your front-end code more efficiently. It's like a development server that makes your code changes appear on the screen almost instantly, without the need to wait for a long time for your changes to be bundled and refreshed.
+
+For example, if you're building a React application using Vite, you can start a Vite development server with a simple command. Whenever you make changes to your code, Vite will quickly update the application in your browser, showing you the results instantly. It saves you the time and frustration of waiting for the entire application to rebuild and refresh each time you make a change.
+
+To install Vite, you'll need to have Node.js and npm already installed. Then, you can open your terminal (Command Prompt or Terminal) and run the following command to install Vite globally on your machine:
+
+```apache
+npm install -g create-vite
+```
+
+This command installs a package called `create-vite`, which allows you to scaffold a new Vite project and get started.
+
+## **Confusion between npm and Vite:**
+
+People sometimes confuse npm and Vite because they both play a role in web development, and they are often used together. npm is used to manage dependencies and packages in your project, while Vite is a build tool that optimizes the development experience. However, they serve different purposes and have different features. Vite uses esbuild and is used to bundle the code and npm is just a package manager like yard. It uses webpack to bundle and run the code.
+
+Remember, npm and Vite are not exclusive to each other. You can use npm to install Vite and manage other project dependencies.
