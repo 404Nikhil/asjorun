@@ -9,13 +9,13 @@ import Toggle from './ThemeChange.astro';
 	<h2>
 		{SITE_TITLE}
 	</h2>
-	<nav>
-		<HeaderLink href="/"><a href="/" style="text-decoration: none; color:aqua;">Home</a></HeaderLink>
-		<HeaderLink href="/blog"><a href="/blog" style="text-decoration: none; color:aqua;">Blog</a></HeaderLink>
-		<HeaderLink href="/about">About</HeaderLink>
-		<HeaderLink href="https://twitter.com/404Nikhil" target="_blank"><a href="/" style="text-decoration: none; color:aqua;">Twitter</a></HeaderLink>
-		<HeaderLink href="https://github.com/404Nikhil" target="_blank">GitHub</HeaderLink>
-		<HeaderLink href="https://linktr.ee/404nikhil" target="_blank">Linktee</HeaderLink>
+	<nav style="flex row">
+		<HeaderLink href="/"><a href="/" style="text-decoration: none; color:#d4d4d4;">Home</a></HeaderLink>
+		<HeaderLink href="/blog"><a href="/blog" style="text-decoration: none; color:#d4d4d4;">Blog</a></HeaderLink>
+		<HeaderLink><a href="/about" style="text-decoration: none; color:#d4d4d4;" >      About</a></Header>
+		<HeaderLink ><a href="https://twitter.com/404Nikhil" target="_blank" style="text-decoration: none; color:#d4d4d4;">Twitter</a></HeaderLink>
+		<HeaderLink ><a href="https://github.com/404Nikhil" target="_blank" style="text-decoration: none; color:#d4d4d4;">Github</a></HeaderLink>
+		<HeaderLink ><a href="https://linktr.ee/404nikhil" target="_blank" style="text-decoration: none; color:#d4d4d4;">Linktree</a></HeaderLink>
 	</nav>
 </header>
 <style>

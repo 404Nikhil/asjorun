@@ -6,15 +6,15 @@
 body {
 	font-family: Verdana, sans-serif;
 	margin: auto;
-	padding: 20px;
-	max-width: 70ch;
+	padding: 18px;
+	max-width: 80ch;
 	text-align: left;
-	background-color: #000000;
+	background-color: #171717;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
 	color: #c9c9c9;
-	font-size: 20px;
+	font-size: 18px;
 }
 h1,
 h2,
@@ -24,7 +24,7 @@ h5,
 h6,
 strong,
 b {
-	color: c9c9c9;
+	color: #c9c9c9;
 }
 a {
 	color: #3273dc;
@@ -182,4 +182,26 @@ input:checked + .slider .feather-moon {
 input:checked + .slider .feather-sun {
 	opacity: 0;
 	transform: translateX(-4px);
+}
+
+h1{
+	font-size: 14.2px;
+	color: #737373;
+}
+
+p{
+	margin: 24px 0px;
+	font-size: 18px;
+	color: #D4D4D4;
+}
+
+.Blog-list{
+	display: flex;
+	flex-direction: column;
+	gap: 5;
+}
+
+.Blog-items{
+	display: flex;
+	-ms-flex-item-align: center;
 }

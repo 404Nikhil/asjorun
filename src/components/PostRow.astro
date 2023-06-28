@@ -1,0 +1,17 @@
+---
+import type { CollectionEntry } from "astro:content"
+import { formatDate } from "../lib/date"
+
+type Props = {
+  post: CollectionEntry<"blog">
+}
+
+const { post: { data: { title, date }, slug } } = Astro.props
+---
+
+<article class="flex justify-between">
+  <a href={`/blog/${slug}`}>
+    <span>{title}</span>
+  </a>
+  <span>{formatDate(date)}</span>
+</article>
