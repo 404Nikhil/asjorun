@@ -3,6 +3,8 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import Project from "../components/Project.astro"
+
 ---
 
 <!DOCTYPE html>
@@ -11,11 +13,12 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"
 		></script>
+		<link rel="stylesheet" href="/pages/styles/global.css" />
 	</head>
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
-			<h1>I am, I am, I am</h1>
+			<h1 class="">I am, I am, I am</h1>
 			<p>
 				Hi there, I'm Nikhil Dhariwal. I'm 19 y/o and from Army Institute of
 				Technology Pune. I like shuffling cards and building things. I enjoy writing
@@ -47,24 +50,12 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 			</p>
 		</main>
 		<Footer />
-		<script>
-  declare global {
-interface Window {
-netlifyIdentity: any;
-}
+      <h2>Projects</h2>
 
-		}
-			
-			if (window.netlifyIdentity) {
-					window.netlifyIdentity.on("init", ((user: any)) => {
-							if (!user) {
-									window.netlifyIdentity.on("login", () => {
-											document.location.href = "/admin/";
-									});
-							}
-					});
-			}
-	</script>
+      <div class="grid">
+        {projects.map(project => <Project {project} />)}
+      </div>
+
 		<div class="m12">
 			<h2>Blog</h2>
 			<div class="Blog-list">
